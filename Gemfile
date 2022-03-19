@@ -5,7 +5,6 @@ ruby "3.1.1"
 
 # Added by me:
 gem 'sass-rails', '~> 6.0'
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
 # CSS framework based on flexbox
 gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
@@ -67,6 +66,7 @@ group :development do
   # Added by me
   gem 'guard', '~> 2.18'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
