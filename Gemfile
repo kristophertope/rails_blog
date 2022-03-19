@@ -3,12 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.1"
 
+# Added by me:
+gem 'sass-rails', '~> 6.0'
 gem 'better_errors', '~> 2.9', '>= 2.9.1'
+# CSS framework based on flexbox
+gem 'bulma-rails', '~> 0.9.3'
+gem 'simple_form', '~> 5.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.2", ">= 7.0.2.3"
-
-gem 'sass-rails', '~> 6.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
