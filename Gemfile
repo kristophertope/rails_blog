@@ -9,6 +9,7 @@ gem 'better_errors', '~> 2.9', '>= 2.9.1'
 # CSS framework based on flexbox
 gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
+gem 'eventmachine', '~> 1.2', '>= 1.2.7'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.2", ">= 7.0.2.3"
