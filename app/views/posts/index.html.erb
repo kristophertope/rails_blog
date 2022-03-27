@@ -4,7 +4,8 @@
 <section class="section">
     <div class="container">
 
-        <% if @posts.exists?  %>
+        <% # empty model returns length of 3 for...reasons. %>
+        <% if @posts.length < 4 %>
             <div class="card">
                 <div class="card-content">
                     <div class="media">
