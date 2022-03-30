@@ -71,6 +71,7 @@ group :development do
   gem 'guard', '~> 2.18'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  gem 'binding_of_caller'
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
